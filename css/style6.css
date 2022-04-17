@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body,
+html{
+    scroll-behavior: smooth;
+}
+  
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* header start */
+#header{
+  background: #477018;
+}
+.header{
+  padding: 16px 0;
+  color: white;
+  font-family: inter;
+}
+/* header end */
+
+
+/* nav start */
+.navbar-brand{
+  font-family: Rye;
+  font-size: 30px;
+  color: #477018 !important;
+}
+.menu-bg{
+  background-color: white;
+}
+.d-flex input{
+  width:100px;
+  outline: none;
+  border: none;
+  overflow: hidden;
+}
+.d-flex a{
+  height: 40px;
+  width: 35px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 19px;
+  color: #477018;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+	color: #477018;
+}
+.navbar-nav li{
+  padding: 24px 24px;
+  font-family: inter;
+  font-weight: 700;
+}
+
+/* nav end */
+
+/* benner part start */
+#benner2{
+    padding: 115px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+/* benner part end */
+
+
+/* footer part start */
+footer{
+    padding: 130px 0;
+    background: #373C33;
+    font-family: inter;
+  }
+  .left-inner h3{
+  font-family: rye;
+  color: white;
+  padding-bottom: 40px;
+  }
+  .left-inner h6{
+  font-size: 16px;
+  color: white;
+  padding: 12px 0;
+  }
+  .mid1-inner h5{
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 42px;
+  color: white;
+  }
+  .mid1-inner h6 a{
+  color: white;
+  font-size: 16px;
+  padding: 12px 0;
+  }
+  .mid2-inner h5{
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 42px;
+  color: white;
+  }
+  .mid2-inner h6 a{
+  color: white;
+  font-size: 16px;
+  padding: 12px 0;
+  }
+  .right-inner h5{
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom:42px;
+  color: white;
+  }
+  .right-inner h6{
+  font-size: 16px;
+  color: white;
+  padding: 6px 0 25px 0;
+  }
+  #mail{
+  height: 53px;
+  color: #6C6C6C;
+  border-radius: 10px;
+  overflow: hidden;
+  outline: none;padding-left: 15px;
+  width: 75%;
+  border: 1px solid lightgrey;
+  }
+  
+  #submit{
+  padding: 15px 24px;
+  border-radius: 10px;
+  background: #F47606;
+  color: white;
+  border: none;
+  margin-left: -70px;
+  }
+  /* footer part end */
